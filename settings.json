@@ -46,13 +46,9 @@
             {
                 "guid": "{00000000-0000-0000-ba54-000000000002}",
                 "commandline": "%PROGRAMFILES%/git/usr/bin/bash.exe -i -l",
-                // "commandline": "%USERPROFILE%/AppData/Local/Programs/Git/bin/bash.exe -l -i",
-                // "commandline": "%USERPROFILE%/scoop/apps/git/current/usr/bin/bash.exe -l -i",
                 "icon": "%PROGRAMFILES%/Git/mingw64/share/git/git-for-windows.ico",
-                // "icon": "%USERPROFILE%/AppData/Local/Programs/Git/mingw64/share/git/git-for-windows.ico",
-                // "icon": "%USERPROFILE%/apps/git/current/usr/share/git/git-for-windows.ico",
+                "startingDirectory": "./",
                 "name": "Bash",
-                "startingDirectory": "%USERPROFILE%",
                 "acrylicOpacity": 0.75,
                 "closeOnExit": true
             }
@@ -70,63 +66,63 @@
                 "action": "switchToTab",
                 "index": 0
             },
-            "keys": "alt+1"
+            "keys": "shift+1"
         },
         {
             "command": {
                 "action": "switchToTab",
                 "index": 1
             },
-            "keys": "alt+2"
+            "keys": "shift+2"
         },
         {
             "command": {
                 "action": "switchToTab",
                 "index": 2
             },
-            "keys": "alt+3"
+            "keys": "shift+3"
         },
         {
             "command": {
                 "action": "switchToTab",
                 "index": 3
             },
-            "keys": "alt+4"
+            "keys": "shift+4"
         },
         {
             "command": {
                 "action": "switchToTab",
                 "index": 4
             },
-            "keys": "alt+5"
+            "keys": "shift+5"
         },
         {
             "command": {
                 "action": "switchToTab",
                 "index": 5
             },
-            "keys": "alt+6"
+            "keys": "shift+6"
         },
         {
             "command": {
                 "action": "switchToTab",
                 "index": 6
             },
-            "keys": "alt+7"
+            "keys": "shift+7"
         },
         {
             "command": {
                 "action": "switchToTab",
                 "index": 7
             },
-            "keys": "alt+8"
+            "keys": "shift+8"
         },
         {
             "command": {
                 "action": "switchToTab",
                 "index": 8
             },
-            "keys": "alt+9"
+            "keys": "shift+9"
         },
         // Copy and paste are bound to Ctrl+Shift+C and Ctrl+Shift+V in your defaults.json.
         // These two lines additionally bind them to Ctrl+C and Ctrl+V.
